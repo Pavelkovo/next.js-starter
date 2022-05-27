@@ -6,18 +6,17 @@
 -->
 
 <h3>Simple next.js starter</h3>
-<p>A simple next.js starter with redux and saga.</p>
+<p>A simple next.js starter with redux-toolkit.</p>
 
 ### Built With
 * [Next.js](https://nextjs.org/)
 * [React](https://reactjs.org/)
 * [Redux](https://redux.js.org/)
-* [Redux-Saga](https://redux-saga.js.org/)
-* [Redux Persist](https://github.com/rt2zz/redux-persist)
+* [Redux-toolkit](https://redux-toolkit.js.org/)
 
 ## Getting Started
 
-This is an example of how you may setting up your project with next, redux, saga.
+This is an example of how you may setting up your project with next and redux-toolkit.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
