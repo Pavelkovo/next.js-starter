@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import type { NextPage } from 'next';
 import { useAppDispatch, useAppSelector } from '@store/hooks';
 import { userSlice } from '@store/reducers/UserSlice';
-import { fetchUsers } from '@store/reducers/ActionCreators';
+import { fetchUsers } from '@store/services/userService';
 // import { userAPI } from '../src/store/services/User';
 
 const Home: NextPage = () => {
