@@ -4,8 +4,10 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    'eslint:recommended',
     'plugin:react/recommended',
-    'airbnb',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
     'next/core-web-vitals',
   ],
   parser: '@typescript-eslint/parser',
@@ -16,30 +18,15 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    '@typescript-eslint',
-  ],
+  plugins: ['react', '@typescript-eslint'],
   rules: {
-    'import/extensions': [
+    'linebreak-style': 0,
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+    'prettier/prettier': [
       'error',
-      'ignorePackages',
       {
-        js: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
-    'no-param-reassign': ['error', { props: false }],
-    'react/destructuring-assignment': 'off',
-    'react/require-default-props': 'off',
-    'react/jsx-props-no-spreading': 'off',
-    'react/jsx-filename-extension': [0],
-    'react/no-unstable-nested-components': 'off',
-    'react/function-component-definition': [
-      0,
-      {
-        namedComponents: 'function-declaration',
+        endOfLine: 'auto',
       },
     ],
   },
