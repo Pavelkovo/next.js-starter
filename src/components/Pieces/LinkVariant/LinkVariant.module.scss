@@ -1,0 +1,8 @@
+.link {
+  color: #0078d4;
+  transition: text-decoration 0.2s ease-in-out;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}

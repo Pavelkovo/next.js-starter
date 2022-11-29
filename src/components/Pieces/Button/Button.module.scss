@@ -1,0 +1,18 @@
+.root {
+  background: #0078d4;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 2px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease-in-out;
+  
+  &:hover {
+    background: #106ebe;
+  }
+}
